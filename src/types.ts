@@ -1,7 +1,9 @@
-export interface SimpleOptions {
-  text: string;
+export interface MatomoOptions {
+  urlBase: string;
+  siteId: number;
 }
 
-export const defaults: SimpleOptions = {
-  text: 'The default text!',
+export const defaults: MatomoOptions = {
+  urlBase: 'https://yourinstance.matomo.cloud/',
+  siteId: 1,
 };

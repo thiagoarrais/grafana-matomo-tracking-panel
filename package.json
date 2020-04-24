@@ -25,5 +25,8 @@
   },
   "engines": {
     "node": ">=12 <13"
+  },
+  "dependencies": {
+    "@datapunt/matomo-tracker-react": "^0.1.1"
   }
 }

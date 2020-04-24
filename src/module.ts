@@ -1,6 +1,6 @@
 import { PanelPlugin } from '@grafana/data';
-import { SimpleOptions, defaults } from './types';
-import { SimplePanel } from './SimplePanel';
-import { SimpleEditor } from './SimpleEditor';
+import { MatomoOptions, defaults } from './types';
+import { MatomoPanel } from './MatomoPanel';
+import { MatomoEditor } from './MatomoEditor';
 
-export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setDefaults(defaults).setEditor(SimpleEditor);
+export const plugin = new PanelPlugin<MatomoOptions>(MatomoPanel).setDefaults(defaults).setEditor(MatomoEditor);
