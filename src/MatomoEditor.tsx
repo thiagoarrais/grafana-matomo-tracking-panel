@@ -14,16 +14,16 @@ export class MatomoEditor extends PureComponent<PanelEditorProps<MatomoOptions>>
 
     return (
       <div className="section gf-form-group">
-        <h5 className="section-heading">Display</h5>
+        <h5 className="section-heading">Connection</h5>
         <FormField
           type="text"
           label="Matomo URL"
-          labelWidth={5}
+          labelWidth={8}
           inputWidth={20}
           onChange={this.onAttrChanged('urlBase')}
           value={options.urlBase || ''}
         />
-        <FormField type="text" label="Site ID" labelWidth={5} inputWidth={20} onChange={this.onAttrChanged('siteId')} value={options.siteId || 0} />
+        <FormField type="text" label="Site ID" labelWidth={8} inputWidth={20} onChange={this.onAttrChanged('siteId')} value={options.siteId || 0} />
       </div>
     );
   }
