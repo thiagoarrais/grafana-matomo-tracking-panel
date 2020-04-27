@@ -32,7 +32,8 @@ jobs:
     - persist_to_workspace:
         root: .
         paths:
-        - ci
+        - dist
+        - coverage
   build_docs:
     <<: *defaults
     steps:
@@ -74,9 +75,8 @@ jobs:
     - run:
         name: Run coverage report
         command: |
-          ls -l ci/jobs/build_plugin
-          ls -l ci/jobs/build_plugin/coverage
-          ./tmp/cc-test-reporter format-coverage -t lcov -o tmp/codeclimate.frontend.json ci/jobs/build_plugin/coverage/lcov.info
+          ls -l coverage
+          ./tmp/cc-test-reporter format-coverage -t lcov -o tmp/codeclimate.frontend.json coverage/lcov.info
     - run:
         name: Install jest and jest-junit
         command: sudo yarn global add jest jest-junit
