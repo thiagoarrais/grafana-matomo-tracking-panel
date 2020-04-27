@@ -5,12 +5,8 @@ import { PanelEditorProps } from '@grafana/data';
 import { MatomoOptions } from './types';
 
 export class MatomoEditor extends PureComponent<PanelEditorProps<MatomoOptions>> {
-  onTextChanged = ({ target }: any) => {
-    this.props.onOptionsChange({ ...this.props.options, urlBase: target.value });
-  };
-
-  onIdChanged = ({ target }: any) => {
-    this.props.onOptionsChange({ ...this.props.options, siteId: target.value });
+  onAttrChanged = (attr: string) => ({ target }: any) => {
+    this.props.onOptionsChange({ ...this.props.options, [attr]: target.value });
   };
 
   render() {
@@ -19,8 +15,15 @@ export class MatomoEditor extends PureComponent<PanelEditorProps<MatomoOptions>>
     return (
       <div className="section gf-form-group">
         <h5 className="section-heading">Display</h5>
-        <FormField type="text" label="Matomo URL" labelWidth={5} inputWidth={20} onChange={this.onTextChanged} value={options.urlBase || ''} />
-        <FormField type="text" label="Site ID" labelWidth={5} inputWidth={20} onChange={this.onIdChanged} value={options.siteId || 0} />
+        <FormField
+          type="text"
+          label="Matomo URL"
+          labelWidth={5}
+          inputWidth={20}
+          onChange={this.onAttrChanged('urlBase')}
+          value={options.urlBase || ''}
+        />
+        <FormField type="text" label="Site ID" labelWidth={5} inputWidth={20} onChange={this.onAttrChanged('siteId')} value={options.siteId || 0} />
       </div>
     );
   }
