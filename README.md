@@ -2,7 +2,7 @@
 [![CircleCI](https://circleci.com/gh/thiagoarrais/grafana-matomo-tracking-panel.svg?style=svg)](https://circleci.com/gh/thiagoarrais/grafana-matomo-tracking-panel)
 [![David Dependency Status](https://david-dm.org/thiagoarrais/grafana-matomo-tracking-panel.svg)](https://david-dm.org/thiagoarrais/grafana-matomo-tracking-panel)
 [![David Dev Dependency Status](https://david-dm.org/thiagoarrais/grafana-matomo-tracking-panel.svg)](https://david-dm.org/thiagoarrais/grafana-matomo-tracking-panel/?type=dev)
-[![Known Vulnerabilities](https://snyk.io/test/github/grafana/simple-react-panel/badge.svg)](https://snyk.io/test/github/grafana/simple-react-panel)
+[![Known Vulnerabilities](https://snyk.io/test/github/thiagoarrais/grafana-matomo-tracking-panel/badge.svg?targetFile=package.json)](https://snyk.io/test/github/thiagoarrais/grafana-matomo-tracking-panel?targetFile=package.json)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f2ebaebad8ce1ddb293c/maintainability)](https://codeclimate.com/github/thiagoarrais/grafana-matomo-tracking-panel/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f2ebaebad8ce1ddb293c/test_coverage)](https://codeclimate.com/github/thiagoarrais/grafana-matomo-tracking-panel/test_coverage)
 
