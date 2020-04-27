@@ -6,6 +6,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/f2ebaebad8ce1ddb293c/maintainability)](https://codeclimate.com/github/thiagoarrais/grafana-matomo-tracking-panel/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f2ebaebad8ce1ddb293c/test_coverage)](https://codeclimate.com/github/thiagoarrais/grafana-matomo-tracking-panel/test_coverage)
 
+Like a tracking pixel, but it is a Grafana Panel.
+
 This panel allows Grafana dashboard usage to be tracked using [Matomo][matomo]. It does only tracking and has no visible UI elements.
 
 ## Usage
