@@ -20,12 +20,12 @@
     },
     "links": [
       {
-        "name": "Website",
-        "url": "https://github.com/grafana/simple-react-panel"
+        "name": "Github",
+        "url": "https://github.com/thiagoarrais/grafana-matomo-tracking-panel"
       },
       {
-        "name": "License",
-        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+        "name": "License (Apache)",
+        "url": "https://github.com/thiagoarrais/grafana-matomo-tracking-panel/blob/master/LICENSE"
       }
     ],
     "screenshots": [],
