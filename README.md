@@ -6,9 +6,11 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/f2ebaebad8ce1ddb293c/maintainability)](https://codeclimate.com/github/thiagoarrais/grafana-matomo-tracking-panel/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f2ebaebad8ce1ddb293c/test_coverage)](https://codeclimate.com/github/thiagoarrais/grafana-matomo-tracking-panel/test_coverage)
 
-Like a tracking pixel, but it is a Grafana Panel.
+Like a tracking pixel, but it is a Grafana Panel. Sponsored by [Serpro](https://www.serpro.gov.br)
 
-This panel allows Grafana dashboard usage to be tracked using [Matomo][matomo]. It does only tracking and has no visible UI elements.
+This panel allows Grafana dashboard usage to be tracked using [Matomo][matomo]. It does only tracking and has no visible presence.
+
+This is independently developed. It is not an official Matomo product, and is not affiliated with, or sponsored by, Matomo.
 
 ## Usage
 
