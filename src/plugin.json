@@ -2,6 +2,9 @@
   "name": "Matomo Tracker",
   "id": "thiagoarrais-matomo-tracking-panel",
   "type": "panel",
+
+  "skipDataQuery": true,
+
   "info": {
     "description": "Panel for tracking via Matomo",
     "author": {
