@@ -185,14 +185,12 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "87:1f:93:af:1c:85:0c:c2:1a:bd:b3:5f:f0:c7:5a:f0"
+            - "98:1f:d9:20:f8:bc:c0:54:1f:40:e8:95:ed:bb:8a:cb"
       - attach_workspace:
           at: .
       - run:
           name: "Publish Release on GitHub"
           command: |
-            # copy ci dist
-            cp -r ci/jobs/build_plugin/dist .
             # copy ci artifacts
             mkdir -p artifacts
             cp -r ci/packages/* artifacts
