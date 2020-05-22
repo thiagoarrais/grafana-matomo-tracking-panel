@@ -1,0 +1,39 @@
+{
+  "name": "Matomo Tracker",
+  "id": "thiagoarrais-matomo-tracking-panel",
+  "type": "panel",
+
+  "skipDataQuery": true,
+
+  "info": {
+    "description": "Panel for tracking via Matomo",
+    "author": {
+      "name": "Thiago Arrais",
+      "url": "https://github.com/thiagoarrais/grafana-matomo-tracking-panel"
+    },
+    "keywords": [
+      "matomo"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/thiagoarrais/grafana-matomo-tracking-panel"
+      },
+      {
+        "name": "License (Apache)",
+        "url": "https://github.com/thiagoarrais/grafana-matomo-tracking-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "0.2.0",
+    "updated": "2020-05-22"
+  },
+  "dependencies": {
+    "grafanaVersion": "7.x.x",
+    "plugins": []
+  }
+}
