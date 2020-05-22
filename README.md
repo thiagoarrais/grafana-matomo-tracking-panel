@@ -12,6 +12,10 @@ This panel allows Grafana dashboard usage to be tracked using [Matomo][matomo]. 
 
 This is independently developed. It is not an official Matomo product, and is not affiliated with, or sponsored by, Matomo.
 
+## Requirements
+
+Compatible with Grafana 7.x
+
 ## Usage
 
 Include only one panel per dashboard that should be tracked. Use the configuration editor to set your Matomo URL and Site ID.
