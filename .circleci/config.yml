@@ -153,15 +153,15 @@ jobs:
     - run:
         name: Run e2e tests
         command: |
-          npx grafana-toolkit plugin:ci-test
+          npx grafana-toolkit plugin:test
     - persist_to_workspace:
         root: .
         paths:
-        - ci/jobs/test_integration
+        - coverage
     - store_test_results:
-        path: ci/jobs/test_integration
+        path: coverage
     - store_artifacts:
-        path: ci/jobs/test_integration
+        path: coverage
   report:
     <<: *defaults
     steps:
