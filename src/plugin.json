@@ -1,6 +1,6 @@
 {
   "name": "Matomo Tracker",
-  "id": "thiagoarrais-matomo-tracking-panel",
+  "id": "thiagoarrais-matomotracking-panel",
   "type": "panel",
 
   "skipDataQuery": true,
