@@ -866,17 +866,17 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@datapunt/matomo-tracker-js@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@datapunt/matomo-tracker-js/-/matomo-tracker-js-0.1.4.tgz#1226f0964d2c062bf9392e9c2fd89838262b10df"
-  integrity sha512-bi8/guszgciSNLJQIFgph27AzkiCF1DmLBxtmJE3CsLxfc0aTgI2vMg3EFoLv13Mu8HLaCs27Z7vbttlD6jp5w==
+"@datapunt/matomo-tracker-js@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@datapunt/matomo-tracker-js/-/matomo-tracker-js-0.1.5.tgz#650396e2d8d9d905c04c94e637cbc21c07648d02"
+  integrity sha512-4L4y5XlVVfJYeyUY1F3iuG55tWBdM5xODtOJSc4LmxTIeTVMKPdI8VbPG3h/2BzO1xxk/p71XakGlemYzn0inw==
 
-"@datapunt/matomo-tracker-react@^0.1.2":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@datapunt/matomo-tracker-react/-/matomo-tracker-react-0.1.4.tgz#d6f108ebd4b2b42ce3610a595d36b3c3425cfe8c"
-  integrity sha512-azWdeIkvx8GB7NZIAgHX26DR9152ri9l24dMuHWT+uH6RDgTwe8o5MDq+grU1y/tWCOlt89VeK/kOk+tD+RbPg==
+"@datapunt/matomo-tracker-react@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@datapunt/matomo-tracker-react/-/matomo-tracker-react-0.1.5.tgz#f85f1b30aabec389297d7fa50d4ca7740f687995"
+  integrity sha512-HJw8StOVC5nxjIRmOoMBfzSbh5ONRcK/9eNWn1lGroV5ZZcDDRgaAkhj5S135+beCq4yyKAoV6kcvpxw6AjY9w==
   dependencies:
-    "@datapunt/matomo-tracker-js" "^0.1.4"
+    "@datapunt/matomo-tracker-js" "^0.1.5"
 
 "@emotion/cache@^10.0.27", "@emotion/cache@^10.0.9":
   version "10.0.29"
