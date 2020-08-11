@@ -24,7 +24,7 @@ jobs:
         command: yarn install --pure-lockfile
     - run:
         name: Run Toolkit Build
-        command: npx grafana-toolkit plugin:ci-build
+        command: npx grafana-toolkit plugin:ci-build && cp INSTALL.md dist/README.md
     - save_cache:
         paths:
         - node_modules
