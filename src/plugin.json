@@ -28,7 +28,10 @@
         "url": "https://github.com/thiagoarrais/grafana-matomo-tracking-panel/blob/master/LICENSE"
       }
     ],
-    "screenshots": [],
+    "screenshots": [{
+        "name": "editor",
+        "path": "img/screenshot.png"
+    }],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
