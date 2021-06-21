@@ -1,6 +1,6 @@
 {
   "name": "thiagoarrais-matomotracking-panel",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Panel for tracking via Matomo",
   "scripts": {
     "build": "grafana-toolkit plugin:build && cp INSTALL.md dist/README.md",
