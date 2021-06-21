@@ -162,20 +162,6 @@ jobs:
         path: coverage
     - store_artifacts:
         path: coverage
-  report:
-    <<: *defaults
-    steps:
-    - checkout
-    - attach_workspace:
-        at: .
-    - restore_cache:
-        keys:
-        - yarn-packages-{{ checksum "yarn.lock" }}
-    - run:
-        name: Toolkit Report
-        command: npx grafana-toolkit plugin:ci-report
-    - store_artifacts:
-        path: ci
 
   publish_github_release:
     working_directory: ~/simple-react-panel
@@ -229,13 +215,10 @@ workflows:
     - test_integration:
         requires:
         - package
-    - report:
-        requires:
-        - test_integration
     - approve_release:
         type: approval
         requires:
-          - report
+          - test_integration
         filters: *filter-only-master
     - publish_github_release:
         requires:
