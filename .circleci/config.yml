@@ -9,7 +9,7 @@ aliases:
 defaults: &defaults
   working_directory: ~/plugin
   docker:
-    - image: circleci/node:12
+    - image: circleci/node:14
 
 jobs:
   build_plugin:
