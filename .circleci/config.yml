@@ -25,6 +25,9 @@ jobs:
     - run:
         name: Run Toolkit Build
         command: npx grafana-toolkit plugin:ci-build && cp INSTALL.md dist/README.md
+    - run:
+        name: Sign Plugin
+        command: npx grafana-toolkit plugin:sign
     - save_cache:
         paths:
         - node_modules
