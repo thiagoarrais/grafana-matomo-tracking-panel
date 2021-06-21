@@ -207,16 +207,7 @@ jobs:
             git push -f origin release-${VERSION}
             git tag -f v${VERSION}
             git push -f origin v${VERSION}
-            ghr \
-              -t ${GITHUB_TOKEN} \
-              -u ${CIRCLE_PROJECT_USERNAME} \
-              -r ${CIRCLE_PROJECT_REPONAME} \
-              -c ${CIRCLE_SHA1} \
-              -n "${PLUGIN_NAME} v${VERSION}" \
-              -b "${RELEASE_NOTES}" \
-              -delete \
-              v${VERSION} \
-              ./artifacts/
+            ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -n "${PLUGIN_NAME} v${VERSION}" -b "${RELEASE_NOTES}" -delete v${VERSION} ./artifacts/
 
 workflows:
   version: 2
