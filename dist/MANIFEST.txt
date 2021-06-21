@@ -1,0 +1,35 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "thiagoarrais",
+  "signedByOrgName": "thiagoarrais",
+  "plugin": "thiagoarrais-matomotracking-panel",
+  "version": "0.2.3",
+  "time": 1624306873536,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "module.js": "e14ad607e6c4e3125c7375278183ea35e34d1262a57906da1b1c9de21a9ec826",
+    "module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
+    "module.js.map": "715bf0400640a31a24debe532a0c926380bac6dbc9d12edc90a404727d659d55",
+    "plugin.json": "d1378dc76a1bd8953751c57595b588968f19dbb6e5b057ff9a1720caf46116ab",
+    "README.md": "243aaad249d73b88d757d1f9a99a7e8ac99b545e7fbef2a9e85519e020d91228",
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "CHANGELOG.md": "f039df40cb9e6dffcd8eb814227ba03e47f686d447bfb45e5eae8bdf83fa9465",
+    "img/logo.svg": "1b2e4ef739c0da1312aeb15b0163ae22177fa3b0c2bdd0b2fb8d23a4e0a3433e",
+    "img/screenshot.png": "0af74460cbe0d6154c679bdef378a5e586c1a3a2e8329b4ad885212fd3d48a49"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.1
+Comment: https://openpgpjs.org
+
+wqAEARMKAAYFAmDQ9LkACgkQfk0ManCIZufl+wII6hUAQ8cYHNoqgnBDt4wg
++cFl60DSTzjmZqn5SOWgQYsa+uihEGSQGB4oqdyVe34wHVlUlYcY4P7R+9ZL
+pXo6jVsCB3DjWYY6JN7DTtc6QfSQj2SiBpMBhu5ohqyj/u8qUCLWziQq1e6W
+gL2QKu62+vCM9A/C6TXkwQgEdIsYi2BeGdJf
+=yO6l
+-----END PGP SIGNATURE-----
