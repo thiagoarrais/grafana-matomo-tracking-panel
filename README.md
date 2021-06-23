@@ -43,7 +43,7 @@ or
 yarn watch
 ```
 
-This will run linting tools and apply prettier fix.
+This will run linting tools and apply prettier fix!!!
 
 To build the plugin run:
 
