@@ -27,6 +27,6 @@
     "node": ">=14 <15"
   },
   "dependencies": {
-    "@datapunt/matomo-tracker-react": "^0.5.1"
+    "@jonkoops/matomo-tracker-react": "^0.7.0"
   }
 }

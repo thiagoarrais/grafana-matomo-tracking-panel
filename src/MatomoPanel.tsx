@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { PanelProps } from '@grafana/data';
 import { MatomoOptions } from 'types';
-import { MatomoProvider, createInstance, useMatomo } from '@datapunt/matomo-tracker-react';
+import { MatomoProvider, createInstance, useMatomo } from '@jonkoops/matomo-tracker-react';
 
 interface Props extends PanelProps<MatomoOptions> {}
 
@@ -10,7 +10,7 @@ const PanelImpl = (props: Props) => {
 
   useEffect(() => {
     trackPageView({});
-  }, [0]);
+  });
 
   return <div />;
 };
